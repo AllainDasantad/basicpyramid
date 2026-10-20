@@ -76,7 +76,3 @@ ABCDEFGHI
 - **Input validation:** menu and size input are wrapped in `try/except`. Non-numeric entries are caught, and the program raises its own `ValueError` if the menu choice is outside 1-6 or the size is less than 1.
 - **Letters:** the `j`-th letter in a row is `chr(ord('A') + j)`.
 - **Large sizes:** for sizes above 5, digits wrap with `% 10` and letters wrap with `% 26`, so every cell stays one character wide and the shape stays aligned.
-
-## Author
-
-Allain Dasantad
